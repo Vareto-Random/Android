@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/asda"
+        android:title="@+string/menu_asda"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    <item
+        android:id="@+id/tesco"
+        android:title="@+string/menu_tesco"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    
+</menu>

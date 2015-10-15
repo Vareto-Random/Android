@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|top"
+    android:minHeight="150dp"
+    android:minWidth="250dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView_listName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:text="List name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView_totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_listName"
+        android:layout_below="@+id/textView_listName"
+        android:text="Total Prices" />
+
+    <TextView
+        android:id="@+id/textView_numItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_totalPrice"
+        android:layout_below="@+id/textView_totalPrice"
+        android:text="Total Items" />
+
+    <TextView
+        android:id="@+id/textView_purchasedItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_numItems"
+        android:layout_below="@+id/textView_numItems"
+        android:text="Purchased Items" />
+
+    <TextView
+        android:id="@+id/textView_creationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_purchasedItems"
+        android:layout_below="@+id/textView_purchasedItems"
+        android:text="Date of creation" />
+
+    <TextView
+        android:id="@+id/textView_creationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_creationDate"
+        android:layout_below="@+id/textView_creationDate"
+        android:text="Time of creation" />
+
+</RelativeLayout>

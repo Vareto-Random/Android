@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="CurrencyTypes">
+        <item name="R$">BR Real - R$</item>
+        <item name="€">Euro -  €</item>
+        <item name="£">Pound -  £</item>
+        <item name="$">US Dollar -  $</item>
+    </string-array>
+    
+    <string-array name="CurrencyValues">
+        <item name="R$">R$</item>
+        <item name="€">€</item>
+        <item name="£">£</item>
+        <item name="$">$</item>
+    </string-array>
+</resources>
