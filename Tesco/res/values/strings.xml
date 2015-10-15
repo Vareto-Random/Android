@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to Tesco app</string>
+    <string name="app_name">Tesco</string>
+<string name="search">food search</string>
+<string name="searchButton">Search!</string>
+<string name="backButton">Back to search</string>
+<string name="found">Look what we found:</string>
+<string name="foundThis">found this...</string>
+</resources>

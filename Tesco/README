@@ -1,0 +1,13 @@
+This is a simple example of using the TESCO API to see their grocery store.
+You can find details about the API at http://www.techfortesco.com/forum/ and 
+register for the API at https://secure.techfortesco.com/tescoapiweb/
+
+Once you have an account you need both a developer key PLUS 
+an application key to login to the API
+
+This simple example will let you search for a product list, and is slow. Takes
+search string, sends login and then passes in search and displays results as
+JSON data.
+
+A better example would separate out JSON results into more readable info and 
+let you follow up with details about single item.
